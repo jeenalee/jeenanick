@@ -31,7 +31,7 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Abril Fatface","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -81,8 +81,9 @@ a {
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba($font-color, 0.3);
-    text-transform: uppercase;
-    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: none;
+    font-family: "Abril Fatface","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
     background-color: $navbar-sm-background-color;
 
     /* Fix height limit and scroll for small screen and many items menu */
@@ -99,7 +100,8 @@ a {
         }
     }
     .navbar-brand {
-        font-weight: 700;
+        font-weight: 600;
+        font-size: 25px;
         &:focus {
             outline: none;
         }
@@ -107,7 +109,7 @@ a {
     a {
         color: $navbar-color;
         @if $header-text-shadow{
-            text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+            text-shadow: 0 0 2px rgba(0, 0, 0, 1.0);
         }
     }
     .nav {
@@ -159,7 +161,7 @@ a {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding: 100% 0;
     text-align: center;
     color: $intro-text-color;
     {% if site.background-img %}
@@ -244,7 +246,7 @@ a {
         max-width: 100%;
         height: auto;
         margin: 0 auto;
-        border: 1px solid $font-color;
+        border: 1px solid transparent;
     }
     /* Added in { Personal } */
     ul,
