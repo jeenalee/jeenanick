@@ -64,7 +64,7 @@ apple-status-bar-style: "white"
 # Web app mode #
 ################
 
-web-app-mode: True
+web-app-mode: False
 
 # Icons for Web App mode
 
@@ -79,7 +79,7 @@ icon-192p: "/img/web-app/icon-192p.png"
 # Blog #
 ########
 
-enable-gesture-navigation: True
+enable-gesture-navigation: False
 
 post-preview-words: 96
 
