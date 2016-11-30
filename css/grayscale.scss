@@ -78,6 +78,13 @@ a {
     }
 }
 
+.my-navbar-brand {
+    float: left;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba($font-color, 0.3);
@@ -99,7 +106,7 @@ a {
             outline: none;
         }
     }
-    .navbar-brand {
+    .my-navbar-brand {
         font-weight: 600;
         font-size: 25px;
         &:focus {
