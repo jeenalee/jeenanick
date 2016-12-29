@@ -140,6 +140,7 @@ pages_list:
   About: 'about'
   When/Where: 'when-where'
   RSVP: 'rsvp'
+  Gifts: 'gifts'
 
 # Exclusion list from the generated _site
 
